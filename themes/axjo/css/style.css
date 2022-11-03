@@ -26,9 +26,10 @@ body {
 
 .main {
     flex: 1 0 auto;
-    transform: translate(65%, 0%);
     padding: 10px; 
-    max-width: 1000px; 
+    max-width: 50%; 
+    position: relative; 
+    left: 20%;
 }
 
 .header, .footer {
@@ -39,14 +40,30 @@ body {
 
 .header {
     border-bottom: 2px solid rgb(40, 40, 40);
+    background-color: #d1d1d1;
+    justify-content: space-between;
+    text-align: center; 
 }
+
 .header, .site-header {
     display: flex;
-    justify-content: space-between;
-    background-color: #d1d1d1;
+    padding-left: 10%;  
 }
 
+.header, .site-header, .logo {
+    padding: auto;
+}
 
+.header, .nav {
+    padding-right: 20%;
+}
+.nav, .ul {
+    text-align: center; 
+    padding-top: 20%; 
+}
+.a {
+    color: pink; 
+}
 /* Title */
 
 .title, .logo {
@@ -91,7 +108,9 @@ body {
 
 .footer .social {
     font-size: 3rem;
-    transform: translate(-560%, 18%);
+    position: relative; 
+    padding: 15px; 
+    left: 45%;
 }
 
 /* Typografy */
@@ -114,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
