@@ -1,0 +1,15 @@
+#navbar {
+    padding-left: 20%;
+    border: solid; 
+    border-color: $secondary-color; 
+
+}
+#navbar, .ul {
+    text-align: center; 
+    padding-top: 5%; 
+    background: $background-alternative-color;
+}
+
+* a {
+    color: $secondary-color;
+}

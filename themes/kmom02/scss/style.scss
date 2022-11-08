@@ -1,0 +1,23 @@
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'variables'; 
+@import 'blockquotes';
+@import 'code';
+
+@import 'title';
+@import 'header';
+@import 'footer'; 
+@import 'main';
+@import 'placement';
+@import 'typography'; 
+@import 'navbar';
+
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
