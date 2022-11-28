@@ -5,12 +5,14 @@ Description: My About page
 
 # Om
 
-På denna sida visar jag upp bilder som anpassar sig efter tillgängligt utrymme på sidan. 
-Tanken är att jag ska skriva ett "kort stycke".. men skriv så tekniskt som du kan för att 
-utmana dig själv att lära. 
+![SASS Definition](assets/img/Definition_Sass.png)
+Denna sida använder sig av en rad olika tekniker. 
+För att konstruera innehållet på sidan används märkspråket markdown, som konverterar "vanlig" text till html-element. 
 
-Gör även extrauppgifterna!!! De verkar lätta och tar nog inte mer än max 40min att utföra, möjligtvis 15min...
+För att stilsätta sidan används bland annat SASS.
+SASS är ett tillägg till CSS, en så kallad preprocessor. SASS är användbart för att bland annat minska repetition genom användning av variabler. Jag har använt variabler för att sätta färg och text-fonter för sidan. 
 
-Riktigt nice att skriva text här, den formatteras automatiskt.
 
-Lek runt med "line-height" eller avd det nu hette. Och responsivitet. 
+
+
+![Elephant](assets/img/elephant.jpg)
