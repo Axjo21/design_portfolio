@@ -1,9 +1,6 @@
 ---
-Title: Kmom01
-Description: My Kmom01 page
+Title: Report2
+Description: My report2 page
 ---
 
-# Kmom01
-
-
-Här lägger jag min redovisningstext för kmom01
+# report2

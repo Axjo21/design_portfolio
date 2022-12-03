@@ -6473,7 +6473,7 @@ pre code {
   }
 }
 .title * {
-  color: rgb(224, 222, 222);
+  color: rgb(227, 227, 227);
 }
 
 .title p {
@@ -6482,8 +6482,8 @@ pre code {
 
 .header {
   border-bottom: solid 2px;
-  border-color: rgb(232, 46, 46);
-  background-color: #2d3232;
+  border-color: rgb(71, 99, 162);
+  background-color: rgba(53, 103, 174, 0.8784313725);
   justify-content: space-between;
   text-align: center;
 }
@@ -6491,7 +6491,7 @@ pre code {
 .header,
 .site-header {
   display: flex;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .header,
@@ -6506,12 +6506,12 @@ pre code {
   border-top: solid;
   border-top: 2px;
   border-color: rgb(68, 68, 68);
-  background-color: #2d3232;
+  background-color: rgba(53, 103, 174, 0.8784313725);
   min-height: 80px;
 }
 
 .footer a {
-  color: rgb(224, 222, 222);
+  color: rgb(70, 70, 70);
   text-decoration: none;
 }
 
@@ -6522,16 +6522,12 @@ pre code {
   left: 45%;
 }
 
-.main,
-.article {
+.main {
   padding: 10px;
   margin: 25px;
-  border-left: solid 2px;
-  border-color: rgb(21, 255, 0);
-}
-
-.backticks {
-  background-color: rgb(255, 0, 0);
+  border: 2px solid;
+  border-color: #2b65c8;
+  color: rgb(70, 70, 70);
 }
 
 body {
@@ -6555,7 +6551,7 @@ body {
 body {
   font-family: sans-serif;
   line-height: 1.5rem;
-  color: rgb(224, 222, 222);
+  color: rgb(70, 70, 70);
 }
 
 p,
@@ -6578,7 +6574,7 @@ h6 {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: rgb(224, 222, 222);
+  color: rgb(70, 70, 70);
 }
 
 * {
@@ -6594,17 +6590,17 @@ img {
 .navbar {
   padding-left: 20%;
   border: solid;
-  border-color: rgb(232, 46, 46);
+  border-color: rgb(71, 99, 162);
 }
 
 .ul {
   text-align: center;
   padding-top: 5%;
-  background: #2d3232;
+  background: rgba(53, 103, 174, 0.8784313725);
 }
 
 * a {
-  color: rgb(232, 46, 46);
+  color: rgb(71, 99, 162);
 }
 
 @media screen and (max-width: 500px) {
@@ -6641,10 +6637,189 @@ img {
     font-size: 0.8em;
   }
 }
+/* report.scss */
+.landing {
+  display: grid;
+  gap: 1em 1em;
+  padding: 10px;
+  margin: 25px;
+  border: 2px solid;
+  border-color: rgb(36, 99, 181);
+  color: rgb(33, 32, 32);
+}
+
+.landing h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+/* technologies.scss */
+.all-technologies {
+  display: grid;
+  grid-template-columns: 285px 285px 285px;
+  grid-template-rows: auto;
+  grid-template-areas: "title title title" "html  css   css" "php   py    py" "php   js    js" "git   git   sql";
+  gap: 1em 1em;
+  padding: 10px;
+  margin: 25px;
+  border: 2px solid;
+  border-color: rgb(36, 99, 181);
+  color: rgb(33, 32, 32);
+}
+
+.tech-box {
+  border: 2px solid;
+  border-color: #2b65c8;
+  background-color: rgb(176, 182, 227);
+  color: rgb(70, 70, 70);
+  padding: 10px;
+}
+
+.tech-title {
+  border: 2px solid;
+  border-color: #2b65c8;
+  background-color: rgb(176, 182, 227);
+  color: rgb(70, 70, 70);
+  padding: 10px;
+  grid-area: title;
+}
+
+.tech-py {
+  grid-area: py;
+}
+
+.tech-sql {
+  grid-area: sql;
+}
+
+.tech-html {
+  grid-area: html;
+}
+
+.tech-css {
+  grid-area: css;
+}
+
+.tech-git {
+  grid-area: git;
+}
+
+.tech-js {
+  grid-area: js;
+}
+
+.tech-php {
+  grid-area: php;
+}
+
+.tech-box a {
+  color: rgb(35, 35, 35);
+  justify-self: center;
+}
+
+.tech-box a:hover {
+  color: rgb(73, 89, 161);
+}
+
+.all-technologies h1 {
+  grid-column: span 3;
+  justify-self: center;
+  border-bottom: solid;
+  border-color: #2b65c8;
+}
+
+.single-technologies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "s-nav s-tech s-tech" "s-nav s-tech s-tech" "s-nav s-tech s-tech";
+  gap: 1em 1em;
+  padding: 10px;
+  margin: 25px;
+  border: 2px solid;
+  border-color: rgb(36, 99, 181);
+}
+
+.technologies .single-tech {
+  grid-area: s-tech;
+  border: 2px solid;
+  border-color: #2b65c8;
+  background-color: rgb(71, 99, 162);
+  color: rgb(227, 227, 227);
+  padding: 10px;
+}
+
+.technologies .tech-navigation {
+  grid-area: s-nav;
+  border: 2px solid;
+  border-color: #2b65c8;
+  background-color: rgb(197, 194, 194);
+  color: rgb(227, 227, 227);
+  padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .all-technologies {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "title" "html " "css  " "py   " "js   " "php  " "sql  " "git  ";
+    gap: 1em 1em;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid;
+    border-color: rgb(36, 99, 181);
+    color: rgb(33, 32, 32);
+  }
+  .tech-box {
+    border: 2px solid;
+    border-color: #2b65c8;
+    background-color: rgb(176, 182, 227);
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    max-width: 52%;
+  }
+  .tech-title {
+    border: 2px solid;
+    border-color: #2b65c8;
+    background-color: rgb(176, 182, 227);
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    grid-area: title;
+    max-width: 52%;
+  }
+  .single-technologies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "s-tech s-tech s-tech" "s-tech s-tech s-tech" "s-tech s-tech s-tech";
+    gap: 1em 1em;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid;
+    border-color: rgb(36, 99, 181);
+  }
+  .single-technologies .single-tech {
+    grid-area: s-tech;
+    border: 2px solid;
+    border-color: #2b65c8;
+    background-color: rgb(71, 99, 162);
+    color: rgb(227, 227, 227);
+    padding: 10px;
+    max-width: 92%;
+  }
+  .single-technologies .tech-navigation {
+    display: none;
+  }
+}
 body {
-  background-color: #454949;
+  background-color: #eeecec;
 }
 
 * {
-  color: rgb(224, 222, 222);
+  color: rgb(70, 70, 70);
 }

@@ -1,17 +1,36 @@
 ---
 Title: Report
 Description: My Report page
+Template: report
 ---
 
-# Report
+Report
+==========================
 
+<div class="kmom-box">
+kmom01
+</div>
 
-Här kan du se kortare sammanfattningar om min upplevelse av kursmomenten. </br>
-Klicka på länkarna för att komma till redovisningstexterna. 
-* [kmom01](report/kmom01)
+<div class="kmom-box">
+Kmom02
+</div>
 
->Detta var ett kul men väldigt förvirrande kursmoment. 
->Att lära sig hantera alla de nya teknikerna samt att
->navigera i de importerade filerna var utmanande, men lärorikt.
+<div class="kmom-box">
+Kmom03
+</div>
 
+<div class="kmom-box">
+Kmom04
+</div>
 
+<div class="kmom-box">
+Kmom05
+</div>
+
+<div class="kmom-box">
+Kmom06
+</div>
+
+<div class="kmom-box project">
+Kmom10
+</div>

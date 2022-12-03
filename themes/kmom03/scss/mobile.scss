@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 500px) {
+    body {
+        word-spacing: normal;
+        overflow: auto;
+        word-break: break-all;
+    }
+
+    .main {
+        padding: 0.1em;
+        margin: 0.1em;
+        float: left;
+        min-width: 90%;
+        left: 1%;
+        overflow: auto;
+        word-spacing: auto;
+        text-align: left;
+    }
+
+    .article {
+        padding: 0.1em;
+        margin: 0.1em;
+        width: 100%;
+    }
+
+    .aside {
+        padding: 0.1em;
+        margin: 0.1em;
+        width: 100%;
+    }
+
+    .footer {
+        float: left;
+        text-align: center;
+    }
+
+    .footer a {
+        font-size: 0.8em;
+    }
+}
