@@ -8,13 +8,40 @@ Template: technologies
 
 <div class="tech-navigation" markdown="1">
 
+<li markdown="1"> 
+
 [HTML](html)
+
+</li>
+<li markdown="1"> 
+
 [CSS](css)
+</li>
+
+<li markdown="1"> 
+
 [PHP](php)
+</li>
+
+<li markdown="1"> 
+
 [JavaScript](javascript)
+</li>
+
+<li markdown="1"> 
+
 [Python](python)
+</li>
+
+<li markdown="1"> 
+
 [Git](git)
+</li>
+
+<li markdown="1"> 
+
 [SQL](sqlite)
+</li>
 
 
 </div>

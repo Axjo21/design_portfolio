@@ -1,0 +1,48 @@
+/* technologies.scss */
+
+.all-technologies {
+    display: grid;
+    grid-template-columns: 285px 285px 285px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'title      title      title'
+    'colors     colors     colors'
+    'load       load       load'
+    'principles principles principles';
+    gap: 1em 1em;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid;
+    border-color: $background-alternative-color;
+    color: rgb(33, 32, 32);
+}
+
+.tech-box {
+    border: 2px solid;
+    border-color: $background-alternative-color;
+    background-color: $background-alternative-color;
+    color: $font-color;
+    padding: 10px;
+}
+
+.tech-title {
+    border: 2px solid;
+    border-color: $background-alternative-color;
+    background-color: $background-alternative-color;
+    color: $font-color;
+    padding: 10px;
+    grid-area: title;
+    text-align: center;
+}
+
+.colors {
+    grid-area: colors;
+}
+
+.load {
+    grid-area: load;
+}
+
+.design-p {
+    grid-area: principles;
+}

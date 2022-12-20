@@ -1,0 +1,34 @@
+@import '../../node_modules/normalize.css/normalize';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+
+@import 'title';
+@import 'header';
+@import 'footer'; 
+@import 'main';
+@import 'placement';
+@import 'typography'; 
+@import 'navbar';
+@import 'mobile'; 
+@import 'report';
+@import 'technologies';
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed:ital@1&display=swap');
+
+body {
+    background: linear-gradient($secondary-color, $secondary-color, $background-color, $accent-color);
+}
+
+
+* {
+    color: $font-color;
+}
+

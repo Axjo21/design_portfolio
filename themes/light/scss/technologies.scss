@@ -1,0 +1,170 @@
+/* technologies.scss */
+
+.all-technologies {
+    display: grid;
+    grid-template-columns: 285px 285px 285px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'title title title'
+    'html  .     css'
+    'php   php   js'
+    'py    py    py'
+    'git   git   sql';
+    gap: 1em 1em;
+    padding: 10px;
+    margin: 25px;
+}
+
+.tech-box {
+    color: $font-color;
+    padding: 10px;
+}
+
+.tech-title {
+    color: $secondary-color;
+    padding: 10px;
+    grid-area: title;
+    text-align: center;
+}
+
+.tech-py {
+    grid-area: py;
+}
+
+.tech-sql {
+    grid-area: sql;
+}
+
+.tech-html {
+    grid-area: html;
+}
+
+.tech-css {
+    grid-area: css;
+}
+
+.tech-git {
+    grid-area: git;
+}
+
+.tech-js {
+    grid-area: js;
+}
+
+.tech-php {
+    grid-area: php;
+}
+
+.tech-box a {
+    color: $secondary-color;
+    justify-self: center;
+}
+
+.tech-box a:hover {
+    color: $secondary-accent-color;
+}
+
+.all-technologies h1 {
+    grid-column: span 3;
+    justify-self: center;
+    border-bottom: solid;
+    border-color: $accent-color;
+}
+
+.single-technologies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    's-nav s-tech s-tech'
+    's-nav s-tech s-tech'
+    's-nav s-tech s-tech';
+    gap: 1em 1em;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid;
+    border-color: $accent-color;
+}
+
+.technologies .single-tech {
+    grid-area: s-tech;
+    color: $font-alternative-color;
+    padding: 10px;
+}
+
+.technologies .tech-navigation {
+    grid-area: s-nav;
+    color: $font-alternative-color;
+    padding: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .all-technologies {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        'title'
+        'html '
+        'css  '
+        'py   '
+        'js   '
+        'php  '
+        'sql  '
+        'git  ';
+        gap: 1em 1em;
+        padding: 10px;
+        margin: 25px;
+        border: 2px solid;
+        border-color: $accent-color;
+        color: rgb(33, 32, 32);
+    }
+    
+    .tech-box {
+        border: 2px solid;
+        border-color: $accent-color;
+        background-color: rgb(176, 182, 227);
+        color: $font-color;
+        padding: 10px;
+        max-width: 52%;
+    }
+    
+    .tech-title {
+        border: 2px solid;
+        border-color: $accent-color;
+        background-color: rgb(176, 182, 227);
+        color: $font-color;
+        padding: 10px;
+        grid-area: title;
+        max-width: 52%;
+    }
+
+    .single-technologies {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        's-tech s-tech s-tech'
+        's-tech s-tech s-tech'
+        's-tech s-tech s-tech';
+        gap: 1em 1em;
+        padding: 10px;
+        margin: 25px;
+        border: 2px solid;
+        border-color: $accent-color;
+    }
+
+    .single-technologies .single-tech {
+        grid-area: s-tech;
+        border: 2px solid;
+        border-color: $accent-color;
+        background-color: $secondary-color;
+        color: $font-alternative-color;
+        padding: 10px;
+        max-width: 92%;
+    }
+
+    .single-technologies .tech-navigation {
+        display: none;
+    }
+}

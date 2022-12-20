@@ -11,4 +11,10 @@ Social:
     - title: Link till google search
       url: https://www.google.com/
       icon: fab fa-google
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

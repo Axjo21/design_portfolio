@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid;
+    border-top: 2px;
+    border-color: rgb(68, 68, 68);
+    background: transparent;
+    //background-color: $background-alternative-color;
+    //linear-gradient(rgb(97, 57, 226), $secondary-color, $secondary-background-color)
+    min-height: 80px;
+}
+
+.footer a {
+    color: $font-color;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 3rem;
+    position: relative;
+    padding: 15px;
+    left: 45%;
+}
