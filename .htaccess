@@ -35,4 +35,3 @@ RewriteRule (.*) index.php/$1 [NC,L]
 
 # Prevent file browsing
 Options -Indexes -MultiViews
-
