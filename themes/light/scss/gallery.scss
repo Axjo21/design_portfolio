@@ -1,0 +1,132 @@
+/* technologies.scss */
+
+.all-pictures {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 285px 285px 285px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'title title title'
+    'one   two   three'
+    'four  five  six'
+    'seven eight nine';
+    gap: 1em 1em;
+    padding: 10px;
+    margin: 25px;
+}
+
+.pic-box {
+    position: relative;
+    width: 100%;
+    color: $font-color;
+    padding: 10px;
+}
+
+.pic-title {
+    color: $secondary-color;
+    padding: 10px;
+    grid-area: title;
+    text-align: center;
+}
+
+.pic-one {
+    grid-area: one;
+}
+
+.pic-two {
+    grid-area: two;
+}
+
+.pic-three {
+    grid-area: three;
+}
+
+.pic-four {
+    grid-area: four;
+}
+
+.pic-five {
+    grid-area: five;
+}
+
+.pic-six {
+    grid-area: six;
+}
+
+.pic-seven {
+    grid-area: seven;
+}
+
+.pic-eight {
+    grid-area: eight;
+}
+
+.pic-nine {
+    grid-area: nine;
+}
+
+.pic-box a {
+    color: $secondary-color;
+    justify-self: center;
+}
+
+.pic-box a:hover {
+    color: $secondary-accent-color;
+}
+
+
+
+
+
+.all-technologies h1 {
+    grid-column: span 3;
+    justify-self: center;
+    border-bottom: solid;
+    border-color: $accent-color;
+}
+
+
+@media screen and (max-width: 800px) {
+    .all-pictures {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        'title'
+        'one  '
+        'two  '
+        'three'
+        'four '
+        'five '
+        'six  '
+        'seven'
+        'eight'
+        'nine ';
+        gap: 1em 1em;
+        padding: 10px;
+        margin: 25px;
+        border: 2px solid;
+        border-color: $accent-color;
+        color: rgb(33, 32, 32);
+    }
+    
+    .pic-box {
+        border: 2px solid;
+        border-color: $accent-color;
+        background-color: rgb(176, 182, 227);
+        color: $font-color;
+        padding: 10px;
+        max-width: 52%;
+    }
+    
+    .pic-title {
+        border: 2px solid;
+        border-color: $accent-color;
+        background-color: rgb(176, 182, 227);
+        color: $font-color;
+        padding: 10px;
+        grid-area: title;
+        max-width: 52%;
+    }
+
+}
