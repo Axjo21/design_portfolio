@@ -12,19 +12,15 @@
     "style2": "sass kmom03/scss/style.scss kmom03/css/style.css --no-source-map",
     "style-dark-old": "sass dark/scss/style-dark.scss dark/css/style-dark.css --no-source-map",
     "style-min-old": "sass light/scss/style.scss light/css/style.min.css --no-source-map --style compressed",
-
-
     "watch": "sass light/scss/style.scss:light/css/style.css light/scss/style-dark.scss:light/css/style-dark.css --no-source-map --watch",
     "watch-min": "sass light/scss/style.scss:light/css/style.min.css light/scss/style-dark.scss:light/css/style-dark.min.css --no-source-map --watch --style compressed",
-    "style": "npm run style-light && npm run style-dark",
     "style-old": "sass light/scss/style.scss light/css/style.css && sass dark/scss/style-dark.scss light/css/style-dark.css --no-source-map",
+    "style": "npm run style-light && npm run style-dark",
     "style-min": "npm run style-light-min && npm run style-dark-min",
-    "style-dark": "sass dark/scss/style-dark.scss light/css/style-dark.css --no-source-map",
-    "style-dark-min": "sass dark/scss/style-dark.scss light/css/style-dark.min.css --no-source-map --style compressed",
+    "style-dark": "sass dark/scss/style-dark.scss dark/css/style-dark.min.css --no-source-map",
     "style-light": "sass light/scss/style.scss light/css/style.css --no-source-map",
+    "style-dark-min": "sass dark/scss/style-dark.scss light/css/style-dark.min.css --no-source-map --style compressed",
     "style-light-min": "sass light/scss/style.scss light/css/style.min.css --no-source-map --style compressed",
-
-
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

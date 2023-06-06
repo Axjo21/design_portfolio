@@ -6803,6 +6803,32 @@ img {
     display: none;
   }
 }
+img, embed, object, video {
+  max-width: 100%;
+}
+
+img:not([alt]) {
+  outline: 4px red dashed !important;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background: linear-gradient(rgb(61, 89, 160), rgb(61, 89, 160), #ddb271, #4a47e7);
 }
