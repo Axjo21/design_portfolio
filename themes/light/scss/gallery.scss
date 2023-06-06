@@ -1,7 +1,6 @@
 /* technologies.scss */
 
 .all-pictures {
-    position: absolute;
     display: grid;
     grid-template-columns: 285px 285px 285px;
     grid-template-rows: auto;
@@ -10,16 +9,14 @@
     'one   two   three'
     'four  five  six'
     'seven eight nine';
-    gap: 1em 1em;
-    padding: 10px;
-    margin: 25px;
+    gap: 0.5em 0.5em;
+    padding: 5px;
+    margin: 10px;
 }
 
 .pic-box {
-    position: relative;
-    width: 100%;
     color: $font-color;
-    padding: 10px;
+    padding: 5px;
 }
 
 .pic-title {

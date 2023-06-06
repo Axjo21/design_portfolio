@@ -4,22 +4,23 @@ Description: Gallery page.
 Template: gallery
 ---
 
+![testingtesting](image/photo-climb.png?area=0,50,0,0)
+
 <div class="all-pictures">
 
-<div class="pic-box tech-title" markdown="1">
+<div class="pic-box pic-title" markdown="1">
 
-# Technologies
+# Gallery
 
 </div>
-
 
 
 <div class="pic-box pic-one" markdown="1"> 
 
 <a href="%base_url%/image/photo-hanoi.png" target="_blank">
-    <picture>
+    <picture class="pic-one">
         <source media="(min-width: 668px)" srcset="%base_url%/image/photo-hanoi.png">
-        <img src="%base_url%/image/photo-hanoi.png&w=667" alt="hanoi">
+        <img src="%base_url%/image/photo-hanoi.png?w=667" alt="hanoi">
     </picture>
 </a>
 
@@ -28,7 +29,7 @@ Template: gallery
 
 <div class="pic-box pic-two" markdown="1" width="150px"> 
 
-![star](image/photo-sw.png?save-as=jpg&w=30&crop-to-fit)
+![star](image/photo-climb.png?save-as=jpg&q=10)
 
 </div>
 
@@ -75,14 +76,14 @@ Template: gallery
 <div class="pic-box pic-eight" markdown="1"> 
 
 
-![yangtze](image/photo-yangtze.png)
+![yangtze](image/photo-cabin.png)
 
 </div>
 
 
 <div class="pic-box pic-nine" markdown="1"> 
 
-![hongkong](image/photo-hongkong.png)
+![hongkong](image/photo-zen.png)
 
 </div>
 
