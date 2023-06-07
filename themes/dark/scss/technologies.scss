@@ -2,7 +2,7 @@
 
 .all-technologies {
     display: grid;
-    grid-template-columns: 285px 285px 285px;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     grid-template-areas:
     'title title title'
@@ -10,9 +10,8 @@
     'php   php   js'
     'py    py    py'
     'git   git   sql';
-    gap: 1em 1em;
-    padding: 10px;
-    margin: 25px;
+    gap: 0.5em 0.5em;
+    margin: 2%;
     border: 2px solid;
     border-color: $background-alternative-color;
     color: rgb(33, 32, 32);
