@@ -10,11 +10,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 
+@import 'body';
 @import 'title';
 @import 'header';
 @import 'footer'; 
 @import 'main';
-@import 'placement';
 @import 'typography'; 
 @import 'navbar';
 @import 'mobile'; 
@@ -26,13 +26,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed:ital@1&display=swap');
 
-body {
-    background-color: $background-color;
-}
-
-body img {
-    filter: brightness(0.7) contrast(1.2);
-}
 
 * {
     color: $font-color;

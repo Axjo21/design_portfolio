@@ -1,191 +1,118 @@
 /* technologies.scss */
 
-.all-technologies {
+.all-pictures {
     display: grid;
-    grid-template-columns: 285px 285px 285px;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     grid-template-areas:
     'title title title'
-    'html  .     css'
-    'php   php   js'
-    'py    py    py'
-    'git   git   sql';
-    gap: 1em 1em;
-    padding: 10px;
-    margin: 25px;
-    border: 2px solid;
-    border-color: $background-alternative-color;
-    color: rgb(33, 32, 32);
+    'one   two   three'
+    'four  five  six'
+    'seven eight nine';
+    gap: 0.5em 0.5em;
+    margin: 2%;
 }
 
-.tech-box {
-    border: 2px solid;
-    border-color: $background-alternative-color;
-    background-color: $background-alternative-color;
+.pic-box {
     color: $font-color;
-    padding: 10px;
 }
 
-.tech-title {
-    border: 2px solid;
-    border-color: $background-alternative-color;
-    background-color: $background-alternative-color;
-    color: $font-color;
-    padding: 10px;
+.pic-title {
+    color: $secondary-color;
     grid-area: title;
     text-align: center;
 }
 
-.tech-py {
-    grid-area: py;
+.pic-one {
+    grid-area: one;
 }
 
-.tech-sql {
-    grid-area: sql;
+.pic-two {
+    grid-area: two;
 }
 
-.tech-html {
-    grid-area: html;
+.pic-three {
+    grid-area: three;
 }
 
-.tech-css {
-    grid-area: css;
+.pic-four {
+    grid-area: four;
 }
 
-.tech-git {
-    grid-area: git;
+.pic-five {
+    grid-area: five;
 }
 
-.tech-js {
-    grid-area: js;
+.pic-six {
+    grid-area: six;
 }
 
-.tech-php {
-    grid-area: php;
+.pic-seven {
+    grid-area: seven;
 }
 
+.pic-eight {
+    grid-area: eight;
+}
 
-.tech-box a {
+.pic-nine {
+    grid-area: nine;
+}
+
+.pic-box a {
     color: $secondary-color;
-    //color: $font-alternative-color;
     justify-self: center;
 }
 
-.tech-box a:hover {
+.pic-box a:hover {
     color: $secondary-accent-color;
 }
 
-.all-technologies h1 {
+
+
+
+
+.all-pictures h1 {
     grid-column: span 3;
     justify-self: center;
     border-bottom: solid;
     border-color: $accent-color;
 }
 
-.single-technologies {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-    's-nav s-tech s-tech'
-    's-nav s-tech s-tech'
-    's-nav s-tech s-tech';
-    gap: 1em 1em;
-    padding: 10px;
-    margin: 25px;
-    border: 2px solid;
-    border-color: $background-alternative-color;
-}
-
-.technologies .single-tech {
-    grid-area: s-tech;
-    border: 2px solid;
-    border-color: $background-alternative-color;
-    background-color: $background-alternative-color;
-    color: $font-alternative-color;
-    padding: 10px;
-}
-
-.technologies .tech-navigation {
-    grid-area: s-nav;
-    border: 2px solid;
-    border-color: $background-alternative-color;
-    background-color: $background-alternative-color;
-    color: $font-alternative-color;
-    padding: 10px;
-}
-
-.technologies .tech-navigation a:hover {
-    color: $secondary-accent-color;
-}
 
 @media screen and (max-width: 800px) {
-    .all-technologies {
+    .all-pictures {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas:
         'title'
-        'html '
-        'css  '
-        'py   '
-        'js   '
-        'php  '
-        'sql  '
-        'git  ';
+        'one  '
+        'two  '
+        'three'
+        'four '
+        'five '
+        'six  '
+        'seven'
+        'eight'
+        'nine ';
         gap: 1em 1em;
-        padding: 10px;
-        margin: 25px;
-        border: 2px solid;
-        border-color: $accent-color;
+        padding: 5px;
+        margin: 5px;
         color: rgb(33, 32, 32);
     }
-    
-    .tech-box {
-        border: 2px solid; 
-        border-color: $accent-color;
+
+    .pic-box {
         color: $font-color;
         padding: 10px;
-        max-width: 52%;
+        max-width: 100%;
     }
     
-    .tech-title {
-        border: 2px solid;
+    .pic-title {
+        color: $font-color;
         padding: 10px;
         grid-area: title;
-        max-width: 52%;
-        border-color: $background-alternative-color;
-        background-color: $background-alternative-color;
-        color: $font-color;
+        max-width: 100%;
     }
 
-    .single-technologies {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
-        's-tech s-tech s-tech'
-        's-tech s-tech s-tech'
-        's-tech s-tech s-tech';
-        gap: 1em 1em;
-        padding: 10px;
-        margin: 25px;
-        border: 2px solid;
-        border-color: $accent-color;
-    }
-
-    .single-technologies .single-tech {
-        grid-area: s-tech;
-        border: 2px solid;
-        border-color: $background-alternative-color;
-        background-color: $background-alternative-color;
-        color: $font-color;
-        padding: 10px;
-        max-width: 92%;
-
-    }
-    
-    .single-technologies .tech-navigation {
-        display: none;
-    }
 }

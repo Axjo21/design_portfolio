@@ -1,0 +1,10 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+}
+
+body img {
+    filter: brightness(0.7) contrast(1.2);
+}

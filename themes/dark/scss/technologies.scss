@@ -135,27 +135,20 @@
         'git  ';
         gap: 1em 1em;
         padding: 10px;
-        margin: 25px;
-        border: 2px solid;
-        border-color: $accent-color;
+        margin: 5px;
         color: rgb(33, 32, 32);
     }
     
     .tech-box {
-        border: 2px solid; 
-        border-color: $accent-color;
         color: $font-color;
         padding: 10px;
-        max-width: 52%;
+        max-width: 100%;
     }
     
     .tech-title {
-        border: 2px solid;
         padding: 10px;
         grid-area: title;
-        max-width: 52%;
-        border-color: $background-alternative-color;
-        background-color: $background-alternative-color;
+        max-width: 100%;
         color: $font-color;
     }
 
@@ -169,9 +162,7 @@
         's-tech s-tech s-tech';
         gap: 1em 1em;
         padding: 10px;
-        margin: 25px;
-        border: 2px solid;
-        border-color: $accent-color;
+        margin: 5px;
     }
 
     .single-technologies .single-tech {
