@@ -44,17 +44,26 @@ Analys
 Det ligger i samtliga sidors intresse att optimera både prestanda och användbarhet. Då samtliga sidor är bildintensiva bör de tillämpa bild och video optimering. Med det sagt får man inte glömma att eftersom samtliga sidors innehåll utmärks av bilder så är det även i deras intresse att visa upp så skarpa och högkvalitativa bilder som möjligt. Det handlar alltså om att hitta en balans mellan bildkvalité och sid-prestanda.
 
 ### National Geographic
-![National Geographic](../assets/img/national_geographic.png)
+![National Geographic](image/national_geographic.png)
 National Geographic bör reducera JavaScript som inte används. Eftersom National Geographic fick ett dåligt LCP värde så bör de optimera innehållet genom att förslagsvis spara bilderna som .jpg eller använda en lägre bildkvalite för att öka prestandan. National Geographic bör även förbättra deras Interaction to Next Paint värde, något som är viktigt för användarvänligheten. 
 
 ### British Museum
-![British Museum](../assets/img/british_museum.png)
+![British Museum](image/british_museum.png)
 British Museum bör skicka med bilder i ett modernare bildformat.
 Utöver LCP så fick British Museum ett bra resultat.
 British Museum fick bäst resultat i samtliga områden, men å andra sidan så laddade den inte in lika många resurser som de andra. Så även fast de fick ett bra resultat så är det viktigt att hålla sidan uppdaterad. 
 
 ### IMDb
-![IMDb](../assets/img/imdb05.png)
+
+![IMDb](%base_url%/image/imdb05.png)
+
+<a href="%base_url%/image/imdb05.png" target="_blank">
+    <picture>
+        <source media="(min-width: 668px)" srcset="%base_url%/image/imdb05.png">
+        <img src="%base_url%/image/imdb05.png" alt="imdb">
+    </picture>
+</a>
+
 IMDb bör minska serverns första svarstid.
 IMDB använde ett flertal iframe videos, både de och bilderna bör optimeras. Att sänka kvaliten på bilderna är något som de bör överväga då de inte gör reklam för filmerna och inte heller har som huvudsyfte att visa upp högkvalitativa bilder, till skillnad från National Geographic. 
 Då det ligger i National Geographics intresse att visa högkvalitativa bilder hade ett alternativ kunnat vara att helt enkelt minska sidans totala innehåll eftersom det är den största sidan bland urvalet. 

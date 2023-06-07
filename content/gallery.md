@@ -4,7 +4,17 @@ Description: Gallery page.
 Template: gallery
 ---
 
-![testingtesting](image/photo-climb.png?area=0,50,0,0)
+![testingtesting](%base_url%/image/photo-climb.png?area=0,50,0,0)
+
+<a href="%base_url%/image/photo-climb.png" target="_blank">
+    <picture>
+        <source media="(min-width: 668px)" srcset="%base_url%/image/photo-climb.png?w=100">
+        <source media="(min-width: 376px)" srcset="%base_url%/image/photo-climb.png?w=667">
+        <img src="%base_url%/image/photo-climb.png?w=375" alt="sheep">
+    </picture>
+</a>
+
+
 
 <div class="all-pictures">
 
