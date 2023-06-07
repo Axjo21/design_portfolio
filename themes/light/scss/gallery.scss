@@ -99,24 +99,16 @@
         gap: 1em 1em;
         padding: 5px;
         margin: 5px;
-        border: 2px solid;
-        border-color: $accent-color;
         color: rgb(33, 32, 32);
     }
-    
+
     .pic-box {
-        border: 2px solid;
-        border-color: $accent-color;
-        background-color: rgb(176, 182, 227);
         color: $font-color;
         padding: 10px;
         max-width: 100%;
     }
     
     .pic-title {
-        border: 2px solid;
-        border-color: $accent-color;
-        background-color: rgb(176, 182, 227);
         color: $font-color;
         padding: 10px;
         grid-area: title;

@@ -115,28 +115,20 @@
         gap: 1em 1em;
         padding: 10px;
         margin: 25px;
-        border: 2px solid;
-        border-color: $accent-color;
         color: rgb(33, 32, 32);
     }
     
     .tech-box {
-        border: 2px solid;
-        border-color: $accent-color;
-        background-color: rgb(176, 182, 227);
         color: $font-color;
         padding: 10px;
-        max-width: 52%;
+        max-width: 100%;
     }
     
     .tech-title {
-        border: 2px solid;
-        border-color: $accent-color;
-        background-color: rgb(176, 182, 227);
         color: $font-color;
         padding: 10px;
         grid-area: title;
-        max-width: 52%;
+        max-width: 100%;
     }
 
     .single-technologies {
@@ -156,9 +148,6 @@
 
     .single-technologies .single-tech {
         grid-area: s-tech;
-        border: 2px solid;
-        border-color: $accent-color;
-        background-color: $secondary-color;
         color: $font-alternative-color;
         padding: 10px;
         max-width: 92%;
