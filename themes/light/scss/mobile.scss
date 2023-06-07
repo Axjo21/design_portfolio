@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
     body {
         word-spacing: normal;
         overflow: auto;
@@ -10,8 +10,8 @@
         padding: 0.1em;
         margin: 0.1em;
         float: left;
-        min-width: 90%;
-        left: 1%;
+        max-width: 90%;
+        left: 3%;
         overflow: auto;
         word-spacing: auto;
         text-align: left;
@@ -29,6 +29,12 @@
         width: 100%;
     }
 
+    .header,
+    .site-header {
+        display: flex;
+        padding-left: 5%;
+    }
+
     .footer {
         float: left;
         text-align: center;
@@ -36,5 +42,12 @@
 
     .footer a {
         font-size: 0.8em;
+    }
+
+    .footer .social {
+        font-size: 3rem;
+        position: relative;
+        padding: 15px;
+        left: 5%;
     }
 }

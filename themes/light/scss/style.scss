@@ -10,6 +10,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 
+@import 'body';
 @import 'title';
 @import 'header';
 @import 'footer'; 
@@ -26,9 +27,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed:ital@1&display=swap');
 
-body {
-    background: linear-gradient($secondary-color, $secondary-color, $background-color, $accent-color);
-}
+
 
 
 * {

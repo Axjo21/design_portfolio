@@ -44,23 +44,33 @@ Analys
 Det ligger i samtliga sidors intresse att optimera både prestanda och användbarhet. Då samtliga sidor är bildintensiva bör de tillämpa bild och video optimering. Med det sagt får man inte glömma att eftersom samtliga sidors innehåll utmärks av bilder så är det även i deras intresse att visa upp så skarpa och högkvalitativa bilder som möjligt. Det handlar alltså om att hitta en balans mellan bildkvalité och sid-prestanda.
 
 ### National Geographic
-![National Geographic](image/national_geographic.png)
+
+<a href="%base_url%/image/national_geographic.png" target="_blank">
+    <picture>
+        <source media="(max-width: 668px)" srcset="%base_url%/image/national_geographic.png?w=667">
+        <img src="%base_url%/image/national_geographic.png?save-as=jpg" alt="imdb">
+    </picture>
+</a>
 National Geographic bör reducera JavaScript som inte används. Eftersom National Geographic fick ett dåligt LCP värde så bör de optimera innehållet genom att förslagsvis spara bilderna som .jpg eller använda en lägre bildkvalite för att öka prestandan. National Geographic bör även förbättra deras Interaction to Next Paint värde, något som är viktigt för användarvänligheten. 
 
 ### British Museum
-![British Museum](image/british_museum.png)
+
+<a href="%base_url%/image/british_museum.png" target="_blank">
+    <picture>
+        <source media="(max-width: 668px)" srcset="%base_url%/image/british_museum.png?w=667">
+        <img src="%base_url%/image/british_museum.png?save-as=jpg" alt="imdb">
+    </picture>
+</a>
 British Museum bör skicka med bilder i ett modernare bildformat.
 Utöver LCP så fick British Museum ett bra resultat.
 British Museum fick bäst resultat i samtliga områden, men å andra sidan så laddade den inte in lika många resurser som de andra. Så även fast de fick ett bra resultat så är det viktigt att hålla sidan uppdaterad. 
 
 ### IMDb
 
-![IMDb](%base_url%/image/imdb05.png)
-
 <a href="%base_url%/image/imdb05.png" target="_blank">
     <picture>
-        <source media="(min-width: 668px)" srcset="%base_url%/image/imdb05.png">
-        <img src="%base_url%/image/imdb05.png" alt="imdb">
+        <source media="(max-width: 668px)" srcset="%base_url%/image/imdb05.png?w=667">
+        <img src="%base_url%/image/imdb05.png?save-as=jpg" alt="imdb">
     </picture>
 </a>
 

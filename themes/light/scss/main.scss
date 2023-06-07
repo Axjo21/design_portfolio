@@ -1,9 +1,14 @@
 .main {
+    flex: 1 0 auto;
+    max-width: 50%;
+    position: relative;
+    left: 20%;
     padding: 10px;
     margin: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
     border: 2px solid;
     border-color: $accent-color;
     color: $font-color;
     background-color: $text-background;
 }
-

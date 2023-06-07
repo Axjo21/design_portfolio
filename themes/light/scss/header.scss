@@ -5,12 +5,13 @@
     background: transparent;
     justify-content: space-between;
     text-align: center;
+    max-width: 100%;
+    flex: 0 0 auto;
 }
 
 .header,
 .site-header {
     display: flex;
-    padding-left: 11.5%;
 }
 
 .header,

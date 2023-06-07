@@ -2,7 +2,7 @@
 
 .all-pictures {
     display: grid;
-    grid-template-columns: 285px 285px 285px;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     grid-template-areas:
     'title title title'
@@ -10,18 +10,15 @@
     'four  five  six'
     'seven eight nine';
     gap: 0.5em 0.5em;
-    padding: 5px;
-    margin: 10px;
+    margin: 2%;
 }
 
 .pic-box {
     color: $font-color;
-    padding: 5px;
 }
 
 .pic-title {
     color: $secondary-color;
-    padding: 10px;
     grid-area: title;
     text-align: center;
 }
@@ -75,7 +72,7 @@
 
 
 
-.all-technologies h1 {
+.all-pictures h1 {
     grid-column: span 3;
     justify-self: center;
     border-bottom: solid;
@@ -100,8 +97,8 @@
         'eight'
         'nine ';
         gap: 1em 1em;
-        padding: 10px;
-        margin: 25px;
+        padding: 5px;
+        margin: 5px;
         border: 2px solid;
         border-color: $accent-color;
         color: rgb(33, 32, 32);
@@ -113,7 +110,7 @@
         background-color: rgb(176, 182, 227);
         color: $font-color;
         padding: 10px;
-        max-width: 52%;
+        max-width: 100%;
     }
     
     .pic-title {
@@ -123,7 +120,7 @@
         color: $font-color;
         padding: 10px;
         grid-area: title;
-        max-width: 52%;
+        max-width: 100%;
     }
 
 }
