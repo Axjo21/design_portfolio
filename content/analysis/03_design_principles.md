@@ -8,6 +8,7 @@ Då jag inte hade ett gäng bloggar eller personsidor nära till hands var jag t
 - [Ryan Sholin](https://ryansholin.com/)
 - [Alice Lindström](https://www.alicelindstrom.se/)
 - [Say Yes](https://sayyes.com/)
+
 Jag kände instinktivt att samtliga sidor gjorde både bra och mindre bra design-beslut och därmed var av intresse att analysera närmare.
 
 Metod
@@ -58,15 +59,31 @@ Då det även tycks vara sponsrat innehåll utöver hennes egna articklar var de
 Say Yes har en simpel färgsättning och en passande font-familj. Att länkar och knappar markeras med orange färg gör att man intuitivt bearbetar deras syfte.
 
 ### Min egen me/portfolio
-kan inte bli bättre. 
+Min sidas design fokuserar på lugna färger. Blå/vit/orange för det vanliga temat och mörka valörer med röda detaljer för min dark-theme.
+
+Jag tycker att designen fungerar väl och den uppnår syftet att visa upp del-innehåll på ett snyggt och avskalat vis. 
+
+Designprinciperna som står i fokus är en noga vald färgpalett, medvetet utnyttjande av tomrum, och enhetlig tillämpning av detaljer. 
+För att åstadkomma sammanhängande detaljer valde jag dels att färgsätta länkarna på ett förutsägbart sätt, använda linjer för att understryka rubriker och underrubriker, jag använde även en noga vald font-familj. 
+Färgpaletten för min dark-theme krävde extra bearbetning för att hitta rätt kontrast. 
+
+Designprinciperna är de samma för samtliga undersidor. 
+
+Som vidareutveckling av mitt portfolio kan jag eftersträva ett mer enhetligt marginal-avstånd. Jobba vidare på mitt vanliga tema då jag lade störst fokus på mitt dark-theme. Möjligtvis göra så att det vanliga temat och natt-temat avspeglar varandra för att skapa mer harmoni. 
+Länkarna behöver snyggas till. 
+
+Jag tänkar implementera ett enhetligt marginalavstånd, uppdatera mitt vanliga tema och snygga till länkarna. 
+
+
 
 Analys
 -----------------------
-Sammanfatta ditt resultat i en analys och skriv generellt om din studie, kom du fram till något speciellt rörande hur webbplatser använder designprinciper?
+Att vara känna till designprinciper och hur ens sida bäst uppnår en god standard är viktigt att vara medveten om när man skapar websidor. 
 
-Övrigt
------------------------
+Samtliga sidor i denna undersökning uppnådde ett gott resultat design-mässigt och samtliga sidor hanterade liknande problem på olika vis. Hur man hanterar dels positiv som negativ yta på en webbplats kan vara en utmaning, eftersom det är sällan man fyller ut en hel skärm med innehåll. Ryan Sholin valde att hålla ett strukturerat föde, Say Yes spred ut sitt innehåll och Alice Lindström implementerade rörelse och färg. 
 
+Sidor med likt innehåll och som implementerar liknande designprinciper kan komma till att se väldigt olika ut. Det finns helt enkelt inget rätt och fel utan det handlar om vilket intryck man vill att sidan ska ge.
 
+Det är viktigt att komma ihåg att när man jobbar med en designprincip så jobbar man troligtvis med ett flertal andra designprinciper och designelement utan att tänka på det. 
 
-Författare av rapport: Axel Jönsson
+#### Denna analys skapades självständigt av mig, Axel Jönsson.

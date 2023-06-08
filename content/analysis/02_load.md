@@ -89,4 +89,4 @@ PageSpeed Insights är ett bra verktyg, men i mitt arbete märkte jag en del bri
 
 
 
-Författare av rapport: Axel Jönsson
+#### Denna analys skapades självständigt av mig, Axel Jönsson.

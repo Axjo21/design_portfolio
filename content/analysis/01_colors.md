@@ -83,4 +83,4 @@ Sans-serif var ett passande val för sidorna. Adlibris hade möjligtvis kunnat h
 
 Skapare
 -----------------------
-Denna analys skapades självständigt av mig, Axel Jönsson.
+#### Denna analys skapades självständigt av mig, Axel Jönsson.

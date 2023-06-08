@@ -12,3 +12,33 @@
 * a {
     color: $secondary-color;
 }
+
+.horizontal-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+.horizontal-nav ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-nav ul li::after {
+    content: " /";
+}
+
+.horizontal-nav ul li:last-child::after {
+    content: "";
+}
+
+.horizontal-nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.horizontal-nav ul li a:hover {
+    text-decoration: underline;
+}
