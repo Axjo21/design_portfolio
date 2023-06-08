@@ -1,4 +1,4 @@
-/* technologies.scss */
+/* gallery.scss */
 
 .all-pictures {
     display: grid;
@@ -68,17 +68,12 @@
     color: $secondary-accent-color;
 }
 
-
-
-
-
 .all-pictures h1 {
     grid-column: span 3;
     justify-self: center;
     border-bottom: solid;
     border-color: $accent-color;
 }
-
 
 @media screen and (max-width: 800px) {
     .all-pictures {
