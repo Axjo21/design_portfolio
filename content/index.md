@@ -4,7 +4,7 @@ Description: This is our index page.
 ---
 
 # Home Page
-## About me
+## About Me
 
 
 ![my picture](assets/img/jag_messenger.jpg)

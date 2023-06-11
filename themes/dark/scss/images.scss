@@ -1,9 +1,12 @@
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
 img:not([alt]) {
-    outline: 4px red dashed !important;
+    outline: 4px rgb(255, 0, 0) dashed !important;
 }
 
 .embed-container {

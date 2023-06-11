@@ -5,8 +5,12 @@
     left: 20%;
     padding: 10px;
     margin: 25px;
-    margin-left: 0px;
-    margin-right: 0px;
     color: $font-color;
     background-color: $text-background;
+    word-break: break-word;
+}
+
+.article {
+    word-break: break-word;
+    padding: 0.1em;
 }
