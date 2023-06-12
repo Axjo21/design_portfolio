@@ -4,17 +4,6 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
-        <div class="aside">
-            <div id="navbar" role="navigation" tabindex="-1">
-                <ul>
-                    {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                        <li{% if page.id==current_page.id %} class="active" {% endif %}>
-                            <a href="{{ page.url }}">{{ page.title }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
         <div class="article">
             {{ content }}
         </div>

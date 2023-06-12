@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Playfair', serif;
     line-height: 1.5rem;
     color: $font-color;
 }
@@ -21,15 +21,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Playfair Display', serif;
     margin-bottom: 0.6em;
     font-weight: bold;
-    color: $font-color;
+    color: $accent-color;
 }
 
 * {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
 }
 
 img {
@@ -40,3 +40,8 @@ img {
 .article a {
     color: $accent-color;
 }
+
+.tech-navigation a {
+    color: $accent-color;
+}
+

@@ -8,6 +8,8 @@ Template: technologies
 
 <div class="tech-navigation" markdown="1">
 
+<ul markdown="1">
+
 <li markdown="1"> 
 
 [HTML](html)
@@ -55,5 +57,6 @@ Template: technologies
 SQLite är en filbaserad databas som använder sig av frågespråket Structured Query Language (SQL). Datatyper som man kan använda sig av är begränsade i förhållande till exempelvis MySQL eller PostGreSQL.
 
 </div>
+</ul>
 
 </div>

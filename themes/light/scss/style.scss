@@ -15,7 +15,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'header';
 @import 'footer'; 
 @import 'main';
-@import 'placement';
 @import 'typography'; 
 @import 'navbar';
 @import 'mobile'; 
@@ -25,10 +24,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'gallery';
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed:ital@1&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed:ital@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300;400&display=swap');
 
 * {
     color: $font-color;

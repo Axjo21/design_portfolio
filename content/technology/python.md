@@ -8,6 +8,7 @@ Template: technologies
 <div class="single-technologies">
 
 <div class="tech-navigation" markdown="1">
+<ul markdown="1">
 
 <li markdown="1"> 
 
@@ -65,4 +66,6 @@ for number in range(1, 100 + 1):
 ```
 
 </div>
+</ul>
+
 </div>

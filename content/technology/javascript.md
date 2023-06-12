@@ -8,6 +8,7 @@ Template: technologies
 
 
 <div class="tech-navigation" markdown="1">
+<ul markdown="1">
 
 <li markdown="1"> 
 
@@ -68,5 +69,6 @@ for (let i = 1; i <= 100; i++) {
 ```
 
 </div>
+</ul>
 
 </div>

@@ -8,6 +8,7 @@ Template: technologies
 
 
 <div class="tech-navigation" markdown="1">
+<ul markdown="1">
 
 <li markdown="1"> 
 
@@ -64,5 +65,6 @@ p {
 ```
 
 </div>
+</ul>
 
 </div>

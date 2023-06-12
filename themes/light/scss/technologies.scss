@@ -97,6 +97,12 @@
     padding: 15px;
 }
 
+.tech-links {
+    position: relative;
+    max-width: 50%;
+    left: 40%;
+}
+
 @media screen and (max-width: 800px) {
     .all-technologies {
         display: grid;
@@ -155,4 +161,11 @@
     .single-technologies .tech-navigation {
         display: none;
     }
+
+    .tech-links {
+        position: relative;
+        left: 0%;
+        max-width: 100%;
+    }
+    
 }

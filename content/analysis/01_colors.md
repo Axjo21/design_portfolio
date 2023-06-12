@@ -19,7 +19,7 @@ Resultat
 -----------------------
 Samtliga webbsidor hade en relativt avskalad layout, med mycket negativ yta. Däremot var de inte minimalistiska. WWF hade många bilder och länkar till articklar på hemsidan, både HBO och Adlibris erbjuder ett urval av serier och böcker som är anpassade efter ens intresse. Sidor som dem är inte gjorda för att vara minimalistiska. Men alla sidor tjänar på att hålla ett nogrannt utvalt innehåll och jag tycker att samtliga sidor lyckas bra med det. Något som förenar sidorna är att de alla använder ett stort urval av bilder och på så vis färgläggs sidan indirekt. 
 
-### WWF
+## WWF
 ![WWF](../assets/img/wwf.png)
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -32,7 +32,7 @@ Samtliga webbsidor hade en relativt avskalad layout, med mycket negativ yta. Dä
 </table>
 WWF hade vit bakgrund och svart text. Sidan förlitade sig mycket på bilder för att fylla ut och sätta färg på sidan. Det var endast vid noggrannt utvalda tillfällen då sidans monokroma färgpalett av orange implementerades. Knappar, pilar och övriga interaktiva element som var av speciellt intresse var färgade orange. 
 
-### Adlibris
+## Adlibris
 ![Adlibris](../assets/img/adlibris.png)
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -48,7 +48,7 @@ Adlibris hade en röd monokrom färgpalett och precis som WWF så förlitade den
 Färgen röd är mycket användbar; speciellt för e-handels sidor. Adlibris lyckades utnyttja färgen som bakgrundsfärg till specialerbjudandet överst, till deras logga och sök-ikon samt som generell bakgrundsfärg och font-färg för deras priser och knappar. 
 Resterande delar av sidan färgsätts av grå/svart/vit och bilder på böcker.
 
-### HBO-Max
+## HBO-Max
 ![HBO-MAX](../assets/img/hbo-max.png)
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -83,4 +83,4 @@ Sans-serif var ett passande val för sidorna. Adlibris hade möjligtvis kunnat h
 
 Skapare
 -----------------------
-#### Denna analys skapades självständigt av mig, Axel Jönsson.
+## Denna analys skapades självständigt av mig, Axel Jönsson.

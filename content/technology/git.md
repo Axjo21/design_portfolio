@@ -8,6 +8,7 @@ Template: technologies
 
 
 <div class="tech-navigation" markdown="1">
+<ul markdown="1">
 
 <li markdown="1"> 
 
@@ -58,5 +59,6 @@ Att Git är ett distribuerat system innebär att inget centralt arkiv behövs. E
 Git är tradionellt sett ett CLI verktyg, men en del GUI baserade verktyg har utvecklats för att underlätta tröskeln att börja med Git.
 
 </div>
+</ul>
 
 </div>

@@ -8,6 +8,7 @@ Template: technologies
 
 
 <div class="tech-navigation" markdown="1">
+<ul markdown="1">
 
 <li markdown="1"> 
 
@@ -64,5 +65,6 @@ HTML använder sig av element beskrivna av taggar. Nedan är ett exempel på ett
 <p>En länk till min <a href="minwebbplats.html">webbplats</a></p>
 ```
 </div>
+</ul>
 
 </div>

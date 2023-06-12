@@ -15,8 +15,8 @@ Template: gallery
 
 
 
-<div class="pic-box pic-one" markdown="1"> 
-<a href="%base_url%/image/photo-hanoi.png" target="_blank">
+<div class="pic-box pic-one" markdown="1">
+<a href="%base_url%/image/photo-hanoi.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-one">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-hanoi.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-hanoi.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Hanoi">
@@ -26,7 +26,7 @@ Template: gallery
 
 
 <div class="pic-box pic-two" markdown="1" width="150px"> 
-<a href="%base_url%/image/photo-climb.png" target="_blank">
+<a href="%base_url%/image/photo-climb.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-two">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-climb.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-climb.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Climb">
@@ -35,8 +35,8 @@ Template: gallery
 </div>
 
 
-<div class="pic-box pic-three" markdown="1"> 
-<a href="%base_url%/image/photo-arsenal.png" target="_blank">
+<div class="pic-box pic-three" markdown="1">
+<a href="%base_url%/image/photo-arsenal.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-two">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-arsenal.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-arsenal.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Arsenal">
@@ -46,7 +46,7 @@ Template: gallery
 
 
 <div class="pic-box pic-four" markdown="1"> 
-<a href="%base_url%/image/photo-underwater.png" target="_blank">
+<a href="%base_url%/image/photo-underwater.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-two">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-underwater.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-underwater.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Underwater">
@@ -55,8 +55,8 @@ Template: gallery
 </div>
 
 
-<div class="pic-box pic-five" markdown="1"> 
-<a href="%base_url%/image/photo-painting.png" target="_blank">
+<div class="pic-box pic-five" markdown="1">
+<a href="%base_url%/image/photo-painting.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-two">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-painting.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-painting.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Painting">
@@ -68,7 +68,7 @@ Template: gallery
 
 
 <div class="pic-box pic-six" markdown="1"> 
-<a href="%base_url%/image/photo-paris.png" target="_blank">
+<a href="%base_url%/image/photo-paris.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-two">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-paris.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-paris.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Paris">
@@ -77,8 +77,8 @@ Template: gallery
 </div>
 
 
-<div class="pic-box pic-seven" markdown="1"> 
-<a href="%base_url%/image/photo-forest.png" target="_blank">
+<div class="pic-box pic-seven" markdown="1">
+<a href="%base_url%/image/photo-forest.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-two">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-forest.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-forest.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Forest">
@@ -87,8 +87,8 @@ Template: gallery
 </div>
 
 
-<div class="pic-box pic-eight" markdown="1"> 
-<a href="%base_url%/image/photo-cabin.png" target="_blank">
+<div class="pic-box pic-eight" markdown="1">
+<a href="%base_url%/image/photo-cabin.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-two">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-cabin.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-cabin.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Cabin">
@@ -97,8 +97,8 @@ Template: gallery
 </div>
 
 
-<div class="pic-box pic-nine" markdown="1"> 
-<a href="%base_url%/image/photo-zen.png" target="_blank">
+<div class="pic-box pic-nine" markdown="1">
+<a href="%base_url%/image/photo-zen.png" target="_blank" aria-label="View image in original size.">
     <picture class="pic-two">
         <source media="(max-width: 375px)" srcset="%base_url%/image/photo-zen.png?save-as=jpg&q=80&w=374">
         <img src="%base_url%/image/photo-zen.png?save-as=jpg&area=20,0,10,0&q=60&w=600&h=600" alt="Zen">
