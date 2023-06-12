@@ -1,7 +1,6 @@
 ---
 Title: Analysis
 Description: This is our Landing page for technologies.
-Template: technologies
 ---
 
 <div class="all-analysis">

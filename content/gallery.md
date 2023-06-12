@@ -4,7 +4,6 @@ Description: Gallery page.
 Template: gallery
 ---
 
-
 <div class="all-pictures">
 
 
